@@ -44,7 +44,7 @@ ng serve -o --host 0.0.0.0
 
 capacitor.config.ts dosyasına aşağıdaki parçayı ekleyin
 ```json
-server: {
+"server": {
     url: "http://your-ip-adress:4200/",
     cleartext: true
 }
